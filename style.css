@@ -1,0 +1,37 @@
+/* div는 셀렉터, 선택해서 border라는 속성에 해당 값을 줬다.
+추후 추가를 편하게 하기 위해 한줄로 쓰지 말자*/
+div {
+    border: 1px solid black;
+}
+.bio-box a {
+    color:red;
+}
+/* 셀렉트를 더 쎄게하면 인라인을 이긴다. */
+/* 씨블링인 애들 줄 하나만 잡는건 못해 */
+div a {
+    color: green;
+}
+/* id를 집을 때는 # */
+#exec-bio{
+    background-color:lightgray;
+}
+/* class를 집을 때는 . */
+.bio-box{
+    border:1px solid black;
+
+}
+#linked-google{
+    background-color: orange;
+}
+.binding{
+    background-color:aqua;
+}
+.alert{
+    background-color: purple;
+}
+/* bad example */
+/* 안 띄우면 그대로html에 치면 자동완성 나온다. */
+body div#exec-bio.bio-box{
+    color:green
+}
+#flick0 > li.item5 > div.obj_off.tab4 > a > img
